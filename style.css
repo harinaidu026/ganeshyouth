@@ -63,11 +63,8 @@ header {
     height: 100vh;
 
     background:
-        linear-gradient(
-            rgba(50, 20, 5, 0.6),
-            rgba(50, 20, 5, 0.7)
-        ),
-        url("images/ganesh.jpg");
+        
+        url("ganesh idol4.jpg");
 
     background-size: cover;
     background-position: center;
