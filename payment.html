@@ -1,9 +1,31 @@
 <html>
 <head>
 	<title>Payment</title>
+	<style>
+		 body {
+        	display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        }
+		form{
+			display: flex;
+			flex-direction: column;
+			padding: 50px;
+			gap: 15px;
+			
+		}
+		button{
+			background-color: blue;
+			color: white;
+		}
+
+
+	</style>
 </head>
 <body>
-	<img src="scanner.jpeg">
+	<img src="scanner.jpeg" height="500px" width="300px">
 	<form action="https://formspree.io/f/maeyvayj" method="post">
                         
                             <input type="text" name="name" class="form-control" placeholder="Your Name" required>
